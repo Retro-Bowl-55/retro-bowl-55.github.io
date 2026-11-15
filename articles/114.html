@@ -37,7 +37,7 @@ fullscreen.addEventListener('click', () => frame.requestFullscreen().catch(() =>
 if (location.hash === '#player') play();
 </script>
     <div class="game-guide-layout">
-      <section class="game-guide"><h2>How to approach Grey Box Testing</h2><p><strong>Puzzle</strong> · Practice notes for Grey Box Testing</p><p>Look for an option with a predictable result. Work out which choices it leaves open before committing to the next move.</p><p>When an early move leaves you with two choices, try to work out which one you can undo. Save choices that are hard to reverse until you have more information.</p></section>
+      <section class="game-guide"><h2>How to approach Grey Box Testing</h2><p>Treat odd behavior as a clue. Reproduce a movement that behaves unexpectedly in a safe part of the level and observe what makes it happen.</p><p>Try the repeatable interaction at the point where the normal route stops short. Learn which part of the setup matters before moving to a different experiment.</p></section>
       <section class="game-guide"><h2>Game details</h2><dl><dt>Genre</dt><dd>Puzzle Games</dd><dt>Developer</dt><dd>Sam Hogan</dd><dt>Technology</dt><dd>Unity WebGL</dd></dl><p>Check the in-game menu for controls.</p></section>
     </div>
   </article>

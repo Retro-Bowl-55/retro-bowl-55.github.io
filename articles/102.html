@@ -37,7 +37,7 @@ fullscreen.addEventListener('click', () => frame.requestFullscreen().catch(() =>
 if (location.hash === '#player') play();
 </script>
     <div class="game-guide-layout">
-      <section class="game-guide"><h2>How to approach Game Inside a Game Inside a Game...</h2><p><strong>Puzzle</strong> · Practice notes for Game Inside a Game Inside a Game...</p><p>When an early move leaves you with two choices, try to work out which one you can undo. Save choices that are hard to reverse until you have more information.</p><p>Look for an option with a predictable result. Work out which choices it leaves open before committing to the next move.</p></section>
+      <section class="game-guide"><h2>How to approach Game Inside a Game Inside a Game...</h2><p>Keep track of which screen is receiving your input when the puzzle moves into another game. An object from the outer screen may determine what you can do in the inner one.</p><p>If an inner puzzle seems closed off, return to the layer that contains it. Compare what you can manipulate in each view before trying the same move again.</p></section>
       <section class="game-guide"><h2>Game details</h2><dl><dt>Genre</dt><dd>Puzzle Games</dd><dt>Developer</dt><dd>Sam Hogan</dd><dt>Technology</dt><dd>Unity WebGL</dd></dl><p>Check the in-game menu for controls.</p></section>
     </div>
   </article>

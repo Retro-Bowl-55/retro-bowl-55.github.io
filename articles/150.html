@@ -37,7 +37,7 @@ fullscreen.addEventListener('click', () => frame.requestFullscreen().catch(() =>
 if (location.hash === '#player') play();
 </script>
     <div class="game-guide-layout">
-      <section class="game-guide"><h2>How to approach Minesweeper</h2><p><strong>Puzzle</strong> · Practice notes for Minesweeper</p><p>When an early move leaves you with two choices, try to work out which one you can undo. Save choices that are hard to reverse until you have more information.</p><p>If you reach a dead end, identify the last choice that still gave you a viable route. Replay up to that decision and try the other route.</p></section>
+      <section class="game-guide"><h2>How to approach Minesweeper</h2><p>Count covered neighbors around a revealed number. Once its mines are accounted for, any remaining covered neighbors of that square can be opened.</p><p>Compare two clues with overlapping neighbors. The difference between the groups can resolve a square that neither clue explains on its own.</p></section>
       <section class="game-guide"><h2>Game details</h2><dl><dt>Genre</dt><dd>Puzzle Games</dd><dt>Developer</dt><dd>Alister Scott</dd><dt>Technology</dt><dd>HTML5, JavaScript</dd></dl><p>Check the in-game menu for controls.</p></section>
     </div>
   </article>
